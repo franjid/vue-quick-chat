@@ -1,6 +1,6 @@
 {
-  "name": "vue-quick-chat",
-  "version": "1.2.8",
+  "name": "@franjid/vue-quick-chat",
+  "version": "1.2.9",
   "private": false,
   "main": "./dist/vue-quick-chat.common.js",
   "files": [
@@ -19,9 +19,10 @@
     "vuejs",
     "simple-chat"
   ],
-  "repository": "https://github.com/MatheusrdSantos/vue-quick-chat",
+  "repository": "https://github.com/franjid/vue-quick-chat",
   "scripts": {
     "serve": "vue-cli-service serve",
+    "prepare": "vue-cli-service build",
     "build": "vue-cli-service build",
     "build-bundle": "vue-cli-service build --target lib --name vue-quick-chat ./src/index.js",
     "lint": "vue-cli-service lint"

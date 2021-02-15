@@ -1,5 +1,6 @@
 <template>
     <div class="header-container" :style="{background: colors.header.bg}">
+        <h1>KAKA</h1>
         <slot name="header" :colors="colors" :chatTitle="chatTitle"
               :participants="participants"
               :myself="myself"></slot>
